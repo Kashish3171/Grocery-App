@@ -1,0 +1,9 @@
+[
+{"id":1,"completed":true,"itemName":"milk","date":"2014-10-01"},
+{"id":2,"completed":true,"itemName":"ice","date":"2014-10-02"},
+{"id":3,"completed":true,"itemName":"burger","date":"2014-10-02"},
+{"id":4,"completed":false,"itemName":"pizza","date":"2014-10-01"},
+{"id":5,"completed":true,"itemName":"maggi","date":"2014-10-04"},
+{"id":6,"completed":false,"itemName":"pasta","date":"2014-10-05"},
+{"id":7,"completed":true,"itemName":"samosa","date":"2014-10-21"}
+]

@@ -1,0 +1,19 @@
+<div class="container center-block">
+	<form name="groceryform">
+	<div class="alert alert-warning" ng-show="groceryform.$invalid && groceryform.$dirty">
+		<span><strong>Warning :</strong> Only alphabets are allowed</span>
+	</div>
+	<span>dirty {{groceryform$dirty}}</span>
+	<span>valid {{groceryform$invalid}}</span>
+			<div class="form-group">
+			<label>Item Name</label>
+
+				<input type="text" name="item" class="form-control" ng-model="groceryl.itemName" required 
+				ng-pattern="/^[A-z]+$/">
+		</div>
+		<a href="#!/" class="btn btn-info pull-left" ng-click="groceryform.$valid && save()">Add</a>
+		<a href="#!/" class="btn btn-info pull-right">Cancel</a>
+		</form>
+		{{min}}
+	</div>
+	

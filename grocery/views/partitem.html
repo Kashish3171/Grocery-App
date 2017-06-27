@@ -1,0 +1,8 @@
+<button class="btn btn-success pull-left" ng-click="mark(item)"><span class="glyphicon" ng-class="item.completed ? 'glyphicon-check' : 'glyphicon-unchecked'"></span>
+				</button>
+
+				
+				<a href="#!" ng-click="removeitem(item)" class="btn btn-danger pull-right" ><span class="glyphicon glyphicon-trash "></span>
+				</a><a href="#!/second/edit/{{item.id}}" class="btn btn-info pull-right" style="margin-right: 20px;"><span class="glyphicon glyphicon-pencil "></span></a>
+				<span ng-class="{strike:item.completed}" style="font-weight: bold;" > {{item.itemName | uppercase}}</span>
+				
